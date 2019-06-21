@@ -8,6 +8,7 @@ public class Demo01 {
     public static void main(String[] args) throws ParseException {
         demo();
         demo1();
+        demo2();
 
     }
 
@@ -22,6 +23,9 @@ public class Demo01 {
         SimpleDateFormat sdf=new SimpleDateFormat("yyyy年MM月dd号 HH:mm:ss");
         String format = sdf.format(d);
         System.out.println(format);
+    }
+    public static void demo2(){
+        System.out.println("java hello");
     }
 
 }
